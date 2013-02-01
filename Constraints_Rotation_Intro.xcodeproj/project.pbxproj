@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4568C79C16BC85AB0086CA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C79B16BC85AB0086CA89 /* UIKit.framework */; };
+		4568C79E16BC85AB0086CA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C79D16BC85AB0086CA89 /* Foundation.framework */; };
+		4568C7A016BC85AB0086CA89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C79F16BC85AB0086CA89 /* CoreGraphics.framework */; };
+		4568C7A616BC85AB0086CA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7A416BC85AB0086CA89 /* InfoPlist.strings */; };
+		4568C7A816BC85AB0086CA89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7A716BC85AB0086CA89 /* main.m */; };
+		4568C7AC16BC85AB0086CA89 /* MRDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7AB16BC85AB0086CA89 /* MRDAppDelegate.m */; };
+		4568C7AE16BC85AB0086CA89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7AD16BC85AB0086CA89 /* Default.png */; };
+		4568C7B016BC85AB0086CA89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7AF16BC85AB0086CA89 /* Default@2x.png */; };
+		4568C7B216BC85AB0086CA89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7B116BC85AB0086CA89 /* Default-568h@2x.png */; };
+		4568C7B516BC85AB0086CA89 /* MRDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7B416BC85AB0086CA89 /* MRDFirstViewController.m */; };
+		4568C7B716BC85AB0086CA89 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7B616BC85AB0086CA89 /* first.png */; };
+		4568C7B916BC85AB0086CA89 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7B816BC85AB0086CA89 /* first@2x.png */; };
+		4568C7BC16BC85AB0086CA89 /* MRDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7BB16BC85AB0086CA89 /* MRDSecondViewController.m */; };
+		4568C7BE16BC85AB0086CA89 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7BD16BC85AB0086CA89 /* second.png */; };
+		4568C7C016BC85AB0086CA89 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7BF16BC85AB0086CA89 /* second@2x.png */; };
+		4568C7C316BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7C116BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib */; };
+		4568C7C616BC85AB0086CA89 /* MRDFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7C416BC85AB0086CA89 /* MRDFirstViewController_iPad.xib */; };
+		4568C7C916BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7C716BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib */; };
+		4568C7CC16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7CA16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib */; };
+		4568C7D416BC85AB0086CA89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C7D316BC85AB0086CA89 /* SenTestingKit.framework */; };
+		4568C7D516BC85AB0086CA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C79B16BC85AB0086CA89 /* UIKit.framework */; };
+		4568C7D616BC85AB0086CA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C79D16BC85AB0086CA89 /* Foundation.framework */; };
+		4568C7DE16BC85AB0086CA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7DC16BC85AB0086CA89 /* InfoPlist.strings */; };
+		4568C7E116BC85AB0086CA89 /* Constraints_Rotation_IntroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7E016BC85AB0086CA89 /* Constraints_Rotation_IntroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4568C7D716BC85AB0086CA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4568C79016BC85AB0086CA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4568C79716BC85AB0086CA89;
+			remoteInfo = Constraints_Rotation_Intro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4568C79816BC85AB0086CA89 /* Constraints_Rotation_Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Constraints_Rotation_Intro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4568C79B16BC85AB0086CA89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4568C79D16BC85AB0086CA89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4568C79F16BC85AB0086CA89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4568C7A316BC85AB0086CA89 /* Constraints_Rotation_Intro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Constraints_Rotation_Intro-Info.plist"; sourceTree = "<group>"; };
+		4568C7A516BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4568C7A716BC85AB0086CA89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4568C7A916BC85AB0086CA89 /* Constraints_Rotation_Intro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Constraints_Rotation_Intro-Prefix.pch"; sourceTree = "<group>"; };
+		4568C7AA16BC85AB0086CA89 /* MRDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRDAppDelegate.h; sourceTree = "<group>"; };
+		4568C7AB16BC85AB0086CA89 /* MRDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRDAppDelegate.m; sourceTree = "<group>"; };
+		4568C7AD16BC85AB0086CA89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4568C7AF16BC85AB0086CA89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4568C7B116BC85AB0086CA89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4568C7B316BC85AB0086CA89 /* MRDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRDFirstViewController.h; sourceTree = "<group>"; };
+		4568C7B416BC85AB0086CA89 /* MRDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRDFirstViewController.m; sourceTree = "<group>"; };
+		4568C7B616BC85AB0086CA89 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4568C7B816BC85AB0086CA89 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4568C7BA16BC85AB0086CA89 /* MRDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRDSecondViewController.h; sourceTree = "<group>"; };
+		4568C7BB16BC85AB0086CA89 /* MRDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRDSecondViewController.m; sourceTree = "<group>"; };
+		4568C7BD16BC85AB0086CA89 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4568C7BF16BC85AB0086CA89 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4568C7C216BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDFirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		4568C7C516BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDFirstViewController_iPad.xib; sourceTree = "<group>"; };
+		4568C7C816BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDSecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		4568C7CB16BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDSecondViewController_iPad.xib; sourceTree = "<group>"; };
+		4568C7D216BC85AB0086CA89 /* Constraints_Rotation_IntroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Constraints_Rotation_IntroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4568C7D316BC85AB0086CA89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4568C7DB16BC85AB0086CA89 /* Constraints_Rotation_IntroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Constraints_Rotation_IntroTests-Info.plist"; sourceTree = "<group>"; };
+		4568C7DD16BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4568C7DF16BC85AB0086CA89 /* Constraints_Rotation_IntroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constraints_Rotation_IntroTests.h; sourceTree = "<group>"; };
+		4568C7E016BC85AB0086CA89 /* Constraints_Rotation_IntroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constraints_Rotation_IntroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4568C79516BC85AB0086CA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568C79C16BC85AB0086CA89 /* UIKit.framework in Frameworks */,
+				4568C79E16BC85AB0086CA89 /* Foundation.framework in Frameworks */,
+				4568C7A016BC85AB0086CA89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568C7CE16BC85AB0086CA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568C7D416BC85AB0086CA89 /* SenTestingKit.framework in Frameworks */,
+				4568C7D516BC85AB0086CA89 /* UIKit.framework in Frameworks */,
+				4568C7D616BC85AB0086CA89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4568C78F16BC85AB0086CA89 = {
+			isa = PBXGroup;
+			children = (
+				4568C7A116BC85AB0086CA89 /* Constraints_Rotation_Intro */,
+				4568C7D916BC85AB0086CA89 /* Constraints_Rotation_IntroTests */,
+				4568C79A16BC85AB0086CA89 /* Frameworks */,
+				4568C79916BC85AB0086CA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4568C79916BC85AB0086CA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4568C79816BC85AB0086CA89 /* Constraints_Rotation_Intro.app */,
+				4568C7D216BC85AB0086CA89 /* Constraints_Rotation_IntroTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4568C79A16BC85AB0086CA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4568C79B16BC85AB0086CA89 /* UIKit.framework */,
+				4568C79D16BC85AB0086CA89 /* Foundation.framework */,
+				4568C79F16BC85AB0086CA89 /* CoreGraphics.framework */,
+				4568C7D316BC85AB0086CA89 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4568C7A116BC85AB0086CA89 /* Constraints_Rotation_Intro */ = {
+			isa = PBXGroup;
+			children = (
+				4568C7AA16BC85AB0086CA89 /* MRDAppDelegate.h */,
+				4568C7AB16BC85AB0086CA89 /* MRDAppDelegate.m */,
+				4568C7B316BC85AB0086CA89 /* MRDFirstViewController.h */,
+				4568C7B416BC85AB0086CA89 /* MRDFirstViewController.m */,
+				4568C7B616BC85AB0086CA89 /* first.png */,
+				4568C7B816BC85AB0086CA89 /* first@2x.png */,
+				4568C7BA16BC85AB0086CA89 /* MRDSecondViewController.h */,
+				4568C7BB16BC85AB0086CA89 /* MRDSecondViewController.m */,
+				4568C7BD16BC85AB0086CA89 /* second.png */,
+				4568C7BF16BC85AB0086CA89 /* second@2x.png */,
+				4568C7C116BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib */,
+				4568C7C416BC85AB0086CA89 /* MRDFirstViewController_iPad.xib */,
+				4568C7C716BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib */,
+				4568C7CA16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib */,
+				4568C7A216BC85AB0086CA89 /* Supporting Files */,
+			);
+			path = Constraints_Rotation_Intro;
+			sourceTree = "<group>";
+		};
+		4568C7A216BC85AB0086CA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4568C7A316BC85AB0086CA89 /* Constraints_Rotation_Intro-Info.plist */,
+				4568C7A416BC85AB0086CA89 /* InfoPlist.strings */,
+				4568C7A716BC85AB0086CA89 /* main.m */,
+				4568C7A916BC85AB0086CA89 /* Constraints_Rotation_Intro-Prefix.pch */,
+				4568C7AD16BC85AB0086CA89 /* Default.png */,
+				4568C7AF16BC85AB0086CA89 /* Default@2x.png */,
+				4568C7B116BC85AB0086CA89 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4568C7D916BC85AB0086CA89 /* Constraints_Rotation_IntroTests */ = {
+			isa = PBXGroup;
+			children = (
+				4568C7DF16BC85AB0086CA89 /* Constraints_Rotation_IntroTests.h */,
+				4568C7E016BC85AB0086CA89 /* Constraints_Rotation_IntroTests.m */,
+				4568C7DA16BC85AB0086CA89 /* Supporting Files */,
+			);
+			path = Constraints_Rotation_IntroTests;
+			sourceTree = "<group>";
+		};
+		4568C7DA16BC85AB0086CA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4568C7DB16BC85AB0086CA89 /* Constraints_Rotation_IntroTests-Info.plist */,
+				4568C7DC16BC85AB0086CA89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4568C79716BC85AB0086CA89 /* Constraints_Rotation_Intro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4568C7E416BC85AB0086CA89 /* Build configuration list for PBXNativeTarget "Constraints_Rotation_Intro" */;
+			buildPhases = (
+				4568C79416BC85AB0086CA89 /* Sources */,
+				4568C79516BC85AB0086CA89 /* Frameworks */,
+				4568C79616BC85AB0086CA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Constraints_Rotation_Intro;
+			productName = Constraints_Rotation_Intro;
+			productReference = 4568C79816BC85AB0086CA89 /* Constraints_Rotation_Intro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4568C7D116BC85AB0086CA89 /* Constraints_Rotation_IntroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4568C7E716BC85AB0086CA89 /* Build configuration list for PBXNativeTarget "Constraints_Rotation_IntroTests" */;
+			buildPhases = (
+				4568C7CD16BC85AB0086CA89 /* Sources */,
+				4568C7CE16BC85AB0086CA89 /* Frameworks */,
+				4568C7CF16BC85AB0086CA89 /* Resources */,
+				4568C7D016BC85AB0086CA89 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4568C7D816BC85AB0086CA89 /* PBXTargetDependency */,
+			);
+			name = Constraints_Rotation_IntroTests;
+			productName = Constraints_Rotation_IntroTests;
+			productReference = 4568C7D216BC85AB0086CA89 /* Constraints_Rotation_IntroTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4568C79016BC85AB0086CA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MRD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Dorsey";
+			};
+			buildConfigurationList = 4568C79316BC85AB0086CA89 /* Build configuration list for PBXProject "Constraints_Rotation_Intro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4568C78F16BC85AB0086CA89;
+			productRefGroup = 4568C79916BC85AB0086CA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4568C79716BC85AB0086CA89 /* Constraints_Rotation_Intro */,
+				4568C7D116BC85AB0086CA89 /* Constraints_Rotation_IntroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4568C79616BC85AB0086CA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568C7A616BC85AB0086CA89 /* InfoPlist.strings in Resources */,
+				4568C7AE16BC85AB0086CA89 /* Default.png in Resources */,
+				4568C7B016BC85AB0086CA89 /* Default@2x.png in Resources */,
+				4568C7B216BC85AB0086CA89 /* Default-568h@2x.png in Resources */,
+				4568C7B716BC85AB0086CA89 /* first.png in Resources */,
+				4568C7B916BC85AB0086CA89 /* first@2x.png in Resources */,
+				4568C7BE16BC85AB0086CA89 /* second.png in Resources */,
+				4568C7C016BC85AB0086CA89 /* second@2x.png in Resources */,
+				4568C7C316BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib in Resources */,
+				4568C7C616BC85AB0086CA89 /* MRDFirstViewController_iPad.xib in Resources */,
+				4568C7C916BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib in Resources */,
+				4568C7CC16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568C7CF16BC85AB0086CA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568C7DE16BC85AB0086CA89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4568C7D016BC85AB0086CA89 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4568C79416BC85AB0086CA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568C7A816BC85AB0086CA89 /* main.m in Sources */,
+				4568C7AC16BC85AB0086CA89 /* MRDAppDelegate.m in Sources */,
+				4568C7B516BC85AB0086CA89 /* MRDFirstViewController.m in Sources */,
+				4568C7BC16BC85AB0086CA89 /* MRDSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568C7CD16BC85AB0086CA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568C7E116BC85AB0086CA89 /* Constraints_Rotation_IntroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4568C7D816BC85AB0086CA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4568C79716BC85AB0086CA89 /* Constraints_Rotation_Intro */;
+			targetProxy = 4568C7D716BC85AB0086CA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4568C7A416BC85AB0086CA89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4568C7A516BC85AB0086CA89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4568C7C116BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4568C7C216BC85AB0086CA89 /* en */,
+			);
+			name = MRDFirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4568C7C416BC85AB0086CA89 /* MRDFirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4568C7C516BC85AB0086CA89 /* en */,
+			);
+			name = MRDFirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		4568C7C716BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4568C7C816BC85AB0086CA89 /* en */,
+			);
+			name = MRDSecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4568C7CA16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4568C7CB16BC85AB0086CA89 /* en */,
+			);
+			name = MRDSecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		4568C7DC16BC85AB0086CA89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4568C7DD16BC85AB0086CA89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4568C7E216BC85AB0086CA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4568C7E316BC85AB0086CA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4568C7E516BC85AB0086CA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Prefix.pch";
+				INFOPLIST_FILE = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4568C7E616BC85AB0086CA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Prefix.pch";
+				INFOPLIST_FILE = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4568C7E816BC85AB0086CA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Constraints_Rotation_Intro.app/Constraints_Rotation_Intro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Prefix.pch";
+				INFOPLIST_FILE = "Constraints_Rotation_IntroTests/Constraints_Rotation_IntroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4568C7E916BC85AB0086CA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Constraints_Rotation_Intro.app/Constraints_Rotation_Intro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Prefix.pch";
+				INFOPLIST_FILE = "Constraints_Rotation_IntroTests/Constraints_Rotation_IntroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4568C79316BC85AB0086CA89 /* Build configuration list for PBXProject "Constraints_Rotation_Intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568C7E216BC85AB0086CA89 /* Debug */,
+				4568C7E316BC85AB0086CA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4568C7E416BC85AB0086CA89 /* Build configuration list for PBXNativeTarget "Constraints_Rotation_Intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568C7E516BC85AB0086CA89 /* Debug */,
+				4568C7E616BC85AB0086CA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4568C7E716BC85AB0086CA89 /* Build configuration list for PBXNativeTarget "Constraints_Rotation_IntroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568C7E816BC85AB0086CA89 /* Debug */,
+				4568C7E916BC85AB0086CA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4568C79016BC85AB0086CA89 /* Project object */;
+}
