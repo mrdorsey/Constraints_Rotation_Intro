@@ -7,10 +7,9 @@
 //
 
 #import "MRDAppDelegate.h"
-
-#import "MRDFirstViewController.h"
-
-#import "MRDSecondViewController.h"
+#import "MRDLayoutViewController.h"
+#import "MRDTabBarController.h"
+#import "MRDTransitionViewController.h"
 
 @implementation MRDAppDelegate
 
@@ -18,18 +17,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-	UIViewController *viewController1, *viewController2;
-	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    viewController1 = [[MRDFirstViewController alloc] initWithNibName:@"MRDFirstViewController_iPhone" bundle:nil];
-	    viewController2 = [[MRDSecondViewController alloc] initWithNibName:@"MRDSecondViewController_iPhone" bundle:nil];
-	} else {
-	    viewController1 = [[MRDFirstViewController alloc] initWithNibName:@"MRDFirstViewController_iPad" bundle:nil];
-	    viewController2 = [[MRDSecondViewController alloc] initWithNibName:@"MRDSecondViewController_iPad" bundle:nil];
-	}
-	self.tabBarController = [[UITabBarController alloc] init];
-	self.tabBarController.viewControllers = @[viewController1, viewController2];
+	UIViewController *transitionViewController, *layoutViewController;
+	transitionViewController = [[MRDTransitionViewController alloc] initWithNibName:@"MRDTransitionViewController" bundle:nil];
+	layoutViewController = [[MRDLayoutViewController alloc] initWithNibName:@"MRDLayoutViewController" bundle:nil];
+	self.tabBarController = [[MRDTabBarController alloc] init];
+	self.tabBarController.viewControllers = @[transitionViewController, layoutViewController];
+	
 	self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+	
     return YES;
 }
 

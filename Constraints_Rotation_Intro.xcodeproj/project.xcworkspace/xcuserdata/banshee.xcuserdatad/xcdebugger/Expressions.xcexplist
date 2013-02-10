@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MRDLayoutViewController _updatePortraitLabelToInterfaceOrientation:animated:withDuration:]:MRDLayoutViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.portraitLbl == nil">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MRDLayoutViewController didRotateFromInterfaceOrientation:]:MRDLayoutViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MRDLayoutViewController willRotateToInterfaceOrientation:duration:]:MRDLayoutViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.portraitLbl == nil">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

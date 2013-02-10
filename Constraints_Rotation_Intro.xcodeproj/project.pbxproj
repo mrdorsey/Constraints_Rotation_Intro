@@ -16,21 +16,23 @@
 		4568C7AE16BC85AB0086CA89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7AD16BC85AB0086CA89 /* Default.png */; };
 		4568C7B016BC85AB0086CA89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7AF16BC85AB0086CA89 /* Default@2x.png */; };
 		4568C7B216BC85AB0086CA89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7B116BC85AB0086CA89 /* Default-568h@2x.png */; };
-		4568C7B516BC85AB0086CA89 /* MRDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7B416BC85AB0086CA89 /* MRDFirstViewController.m */; };
-		4568C7B716BC85AB0086CA89 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7B616BC85AB0086CA89 /* first.png */; };
-		4568C7B916BC85AB0086CA89 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7B816BC85AB0086CA89 /* first@2x.png */; };
-		4568C7BC16BC85AB0086CA89 /* MRDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7BB16BC85AB0086CA89 /* MRDSecondViewController.m */; };
-		4568C7BE16BC85AB0086CA89 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7BD16BC85AB0086CA89 /* second.png */; };
-		4568C7C016BC85AB0086CA89 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7BF16BC85AB0086CA89 /* second@2x.png */; };
-		4568C7C316BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7C116BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib */; };
-		4568C7C616BC85AB0086CA89 /* MRDFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7C416BC85AB0086CA89 /* MRDFirstViewController_iPad.xib */; };
-		4568C7C916BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7C716BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib */; };
-		4568C7CC16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7CA16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib */; };
 		4568C7D416BC85AB0086CA89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C7D316BC85AB0086CA89 /* SenTestingKit.framework */; };
 		4568C7D516BC85AB0086CA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C79B16BC85AB0086CA89 /* UIKit.framework */; };
 		4568C7D616BC85AB0086CA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568C79D16BC85AB0086CA89 /* Foundation.framework */; };
 		4568C7DE16BC85AB0086CA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7DC16BC85AB0086CA89 /* InfoPlist.strings */; };
 		4568C7E116BC85AB0086CA89 /* Constraints_Rotation_IntroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7E016BC85AB0086CA89 /* Constraints_Rotation_IntroTests.m */; };
+		4568C7ED16BC87410086CA89 /* MRDTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7EB16BC87410086CA89 /* MRDTransitionViewController.m */; };
+		4568C7EE16BC87410086CA89 /* MRDTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7EC16BC87410086CA89 /* MRDTransitionViewController.xib */; };
+		4568C7F116BC878F0086CA89 /* MRDViewControllerIntroConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7F016BC878E0086CA89 /* MRDViewControllerIntroConstants.m */; };
+		4568C7F516BC88320086CA89 /* MRDModalTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7F316BC88320086CA89 /* MRDModalTransitionViewController.m */; };
+		4568C7F616BC88320086CA89 /* MRDModalTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7F416BC88320086CA89 /* MRDModalTransitionViewController.xib */; };
+		4568C7FA16BCA0870086CA89 /* MRDLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568C7F816BCA0870086CA89 /* MRDLayoutViewController.m */; };
+		4568C7FB16BCA0870086CA89 /* MRDLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7F916BCA0870086CA89 /* MRDLayoutViewController.xib */; };
+		4568C80016BCA90C0086CA89 /* 03-loopback.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7FC16BCA90C0086CA89 /* 03-loopback.png */; };
+		4568C80116BCA90C0086CA89 /* 03-loopback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7FD16BCA90C0086CA89 /* 03-loopback@2x.png */; };
+		4568C80216BCA90C0086CA89 /* 04-squiggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7FE16BCA90C0086CA89 /* 04-squiggle.png */; };
+		4568C80316BCA90C0086CA89 /* 04-squiggle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568C7FF16BCA90C0086CA89 /* 04-squiggle@2x.png */; };
+		457C4D9C16C417A80078E5A0 /* MRDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C4D9B16C417A80078E5A0 /* MRDTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,24 +59,29 @@
 		4568C7AD16BC85AB0086CA89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4568C7AF16BC85AB0086CA89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4568C7B116BC85AB0086CA89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4568C7B316BC85AB0086CA89 /* MRDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRDFirstViewController.h; sourceTree = "<group>"; };
-		4568C7B416BC85AB0086CA89 /* MRDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRDFirstViewController.m; sourceTree = "<group>"; };
-		4568C7B616BC85AB0086CA89 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		4568C7B816BC85AB0086CA89 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		4568C7BA16BC85AB0086CA89 /* MRDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRDSecondViewController.h; sourceTree = "<group>"; };
-		4568C7BB16BC85AB0086CA89 /* MRDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRDSecondViewController.m; sourceTree = "<group>"; };
-		4568C7BD16BC85AB0086CA89 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		4568C7BF16BC85AB0086CA89 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		4568C7C216BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDFirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		4568C7C516BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDFirstViewController_iPad.xib; sourceTree = "<group>"; };
-		4568C7C816BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDSecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		4568C7CB16BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDSecondViewController_iPad.xib; sourceTree = "<group>"; };
 		4568C7D216BC85AB0086CA89 /* Constraints_Rotation_IntroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Constraints_Rotation_IntroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4568C7D316BC85AB0086CA89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4568C7DB16BC85AB0086CA89 /* Constraints_Rotation_IntroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Constraints_Rotation_IntroTests-Info.plist"; sourceTree = "<group>"; };
 		4568C7DD16BC85AB0086CA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4568C7DF16BC85AB0086CA89 /* Constraints_Rotation_IntroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constraints_Rotation_IntroTests.h; sourceTree = "<group>"; };
 		4568C7E016BC85AB0086CA89 /* Constraints_Rotation_IntroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constraints_Rotation_IntroTests.m; sourceTree = "<group>"; };
+		4568C7EA16BC87410086CA89 /* MRDTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDTransitionViewController.h; sourceTree = "<group>"; };
+		4568C7EB16BC87410086CA89 /* MRDTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDTransitionViewController.m; sourceTree = "<group>"; };
+		4568C7EC16BC87410086CA89 /* MRDTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRDTransitionViewController.xib; sourceTree = "<group>"; };
+		4568C7EF16BC878E0086CA89 /* MRDViewControllerIntroConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDViewControllerIntroConstants.h; sourceTree = "<group>"; };
+		4568C7F016BC878E0086CA89 /* MRDViewControllerIntroConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDViewControllerIntroConstants.m; sourceTree = "<group>"; };
+		4568C7F216BC88320086CA89 /* MRDModalTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDModalTransitionViewController.h; sourceTree = "<group>"; };
+		4568C7F316BC88320086CA89 /* MRDModalTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDModalTransitionViewController.m; sourceTree = "<group>"; };
+		4568C7F416BC88320086CA89 /* MRDModalTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRDModalTransitionViewController.xib; sourceTree = "<group>"; };
+		4568C7F716BCA0870086CA89 /* MRDLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDLayoutViewController.h; sourceTree = "<group>"; };
+		4568C7F816BCA0870086CA89 /* MRDLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDLayoutViewController.m; sourceTree = "<group>"; };
+		4568C7F916BCA0870086CA89 /* MRDLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRDLayoutViewController.xib; sourceTree = "<group>"; };
+		4568C7FC16BCA90C0086CA89 /* 03-loopback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-loopback.png"; sourceTree = "<group>"; };
+		4568C7FD16BCA90C0086CA89 /* 03-loopback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-loopback@2x.png"; sourceTree = "<group>"; };
+		4568C7FE16BCA90C0086CA89 /* 04-squiggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-squiggle.png"; sourceTree = "<group>"; };
+		4568C7FF16BCA90C0086CA89 /* 04-squiggle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-squiggle@2x.png"; sourceTree = "<group>"; };
+		457C4D9A16C417A80078E5A0 /* MRDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDTabBarController.h; sourceTree = "<group>"; };
+		457C4D9B16C417A80078E5A0 /* MRDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4529939B16C675E000E8CD5B /* TransitionTab */ = {
+			isa = PBXGroup;
+			children = (
+				4568C7EA16BC87410086CA89 /* MRDTransitionViewController.h */,
+				4568C7EB16BC87410086CA89 /* MRDTransitionViewController.m */,
+				4568C7EC16BC87410086CA89 /* MRDTransitionViewController.xib */,
+				4568C7F216BC88320086CA89 /* MRDModalTransitionViewController.h */,
+				4568C7F316BC88320086CA89 /* MRDModalTransitionViewController.m */,
+				4568C7F416BC88320086CA89 /* MRDModalTransitionViewController.xib */,
+				4568C7FC16BCA90C0086CA89 /* 03-loopback.png */,
+				4568C7FD16BCA90C0086CA89 /* 03-loopback@2x.png */,
+			);
+			name = TransitionTab;
+			sourceTree = "<group>";
+		};
+		4529939C16C6761900E8CD5B /* Layout Tab */ = {
+			isa = PBXGroup;
+			children = (
+				4568C7F716BCA0870086CA89 /* MRDLayoutViewController.h */,
+				4568C7F816BCA0870086CA89 /* MRDLayoutViewController.m */,
+				4568C7F916BCA0870086CA89 /* MRDLayoutViewController.xib */,
+				4568C7FE16BCA90C0086CA89 /* 04-squiggle.png */,
+				4568C7FF16BCA90C0086CA89 /* 04-squiggle@2x.png */,
+			);
+			name = "Layout Tab";
+			sourceTree = "<group>";
+		};
 		4568C78F16BC85AB0086CA89 = {
 			isa = PBXGroup;
 			children = (
@@ -136,18 +170,12 @@
 			children = (
 				4568C7AA16BC85AB0086CA89 /* MRDAppDelegate.h */,
 				4568C7AB16BC85AB0086CA89 /* MRDAppDelegate.m */,
-				4568C7B316BC85AB0086CA89 /* MRDFirstViewController.h */,
-				4568C7B416BC85AB0086CA89 /* MRDFirstViewController.m */,
-				4568C7B616BC85AB0086CA89 /* first.png */,
-				4568C7B816BC85AB0086CA89 /* first@2x.png */,
-				4568C7BA16BC85AB0086CA89 /* MRDSecondViewController.h */,
-				4568C7BB16BC85AB0086CA89 /* MRDSecondViewController.m */,
-				4568C7BD16BC85AB0086CA89 /* second.png */,
-				4568C7BF16BC85AB0086CA89 /* second@2x.png */,
-				4568C7C116BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib */,
-				4568C7C416BC85AB0086CA89 /* MRDFirstViewController_iPad.xib */,
-				4568C7C716BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib */,
-				4568C7CA16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib */,
+				457C4D9A16C417A80078E5A0 /* MRDTabBarController.h */,
+				457C4D9B16C417A80078E5A0 /* MRDTabBarController.m */,
+				4568C7EF16BC878E0086CA89 /* MRDViewControllerIntroConstants.h */,
+				4568C7F016BC878E0086CA89 /* MRDViewControllerIntroConstants.m */,
+				4529939C16C6761900E8CD5B /* Layout Tab */,
+				4529939B16C675E000E8CD5B /* TransitionTab */,
 				4568C7A216BC85AB0086CA89 /* Supporting Files */,
 			);
 			path = Constraints_Rotation_Intro;
@@ -262,14 +290,13 @@
 				4568C7AE16BC85AB0086CA89 /* Default.png in Resources */,
 				4568C7B016BC85AB0086CA89 /* Default@2x.png in Resources */,
 				4568C7B216BC85AB0086CA89 /* Default-568h@2x.png in Resources */,
-				4568C7B716BC85AB0086CA89 /* first.png in Resources */,
-				4568C7B916BC85AB0086CA89 /* first@2x.png in Resources */,
-				4568C7BE16BC85AB0086CA89 /* second.png in Resources */,
-				4568C7C016BC85AB0086CA89 /* second@2x.png in Resources */,
-				4568C7C316BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib in Resources */,
-				4568C7C616BC85AB0086CA89 /* MRDFirstViewController_iPad.xib in Resources */,
-				4568C7C916BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib in Resources */,
-				4568C7CC16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib in Resources */,
+				4568C7EE16BC87410086CA89 /* MRDTransitionViewController.xib in Resources */,
+				4568C7F616BC88320086CA89 /* MRDModalTransitionViewController.xib in Resources */,
+				4568C7FB16BCA0870086CA89 /* MRDLayoutViewController.xib in Resources */,
+				4568C80016BCA90C0086CA89 /* 03-loopback.png in Resources */,
+				4568C80116BCA90C0086CA89 /* 03-loopback@2x.png in Resources */,
+				4568C80216BCA90C0086CA89 /* 04-squiggle.png in Resources */,
+				4568C80316BCA90C0086CA89 /* 04-squiggle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +333,11 @@
 			files = (
 				4568C7A816BC85AB0086CA89 /* main.m in Sources */,
 				4568C7AC16BC85AB0086CA89 /* MRDAppDelegate.m in Sources */,
-				4568C7B516BC85AB0086CA89 /* MRDFirstViewController.m in Sources */,
-				4568C7BC16BC85AB0086CA89 /* MRDSecondViewController.m in Sources */,
+				4568C7ED16BC87410086CA89 /* MRDTransitionViewController.m in Sources */,
+				4568C7F116BC878F0086CA89 /* MRDViewControllerIntroConstants.m in Sources */,
+				4568C7F516BC88320086CA89 /* MRDModalTransitionViewController.m in Sources */,
+				4568C7FA16BCA0870086CA89 /* MRDLayoutViewController.m in Sources */,
+				457C4D9C16C417A80078E5A0 /* MRDTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,38 +366,6 @@
 				4568C7A516BC85AB0086CA89 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4568C7C116BC85AB0086CA89 /* MRDFirstViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4568C7C216BC85AB0086CA89 /* en */,
-			);
-			name = MRDFirstViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		4568C7C416BC85AB0086CA89 /* MRDFirstViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4568C7C516BC85AB0086CA89 /* en */,
-			);
-			name = MRDFirstViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		4568C7C716BC85AB0086CA89 /* MRDSecondViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4568C7C816BC85AB0086CA89 /* en */,
-			);
-			name = MRDSecondViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		4568C7CA16BC85AB0086CA89 /* MRDSecondViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4568C7CB16BC85AB0086CA89 /* en */,
-			);
-			name = MRDSecondViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		4568C7DC16BC85AB0086CA89 /* InfoPlist.strings */ = {
@@ -445,6 +443,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Prefix.pch";
 				INFOPLIST_FILE = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +455,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Prefix.pch";
 				INFOPLIST_FILE = "Constraints_Rotation_Intro/Constraints_Rotation_Intro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -514,6 +514,7 @@
 				4568C7E616BC85AB0086CA89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4568C7E716BC85AB0086CA89 /* Build configuration list for PBXNativeTarget "Constraints_Rotation_IntroTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				4568C7E916BC85AB0086CA89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
